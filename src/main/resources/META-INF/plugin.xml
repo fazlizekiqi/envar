@@ -1,0 +1,48 @@
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>se.seb.docflow.enVar</id>
+
+    <!-- Public plugin name should be written in Title Case. -->
+    <name>EnVar</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager. -->
+    <description><![CDATA[
+        A tool window to display project-specific environment variables.<br>
+        <em>Most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- Product and plugin compatibility requirements. -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin. -->
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Registering the tool window -->
+        <toolWindow
+                id="Environment Variables"
+                anchor="right"
+                icon="/icons/pluginIcon.svg"
+                factoryClass="se.docflow.envar.MyToolWindowFactory"
+                secondary="true">
+        </toolWindow>
+    </extensions>
+
+    <!-- Actions and Action Groups -->
+    <actions>
+
+        <group id="MyToolWindowGroup" class="se.docflow.envar.MyToolWindowActionGroup"
+               text="testing">
+            <action
+                    id="ShowMyCustomToolWindow"
+                    class="se.docflow.envar.ShowMyCustomToolWindowAction"
+                    text="Show Environment Variables"
+                    description="Show the project-specific environment variables in a tool window"
+                    icon="/icons/pluginIcon.svg">
+            </action>
+
+        </group>
+
+    </actions>
+</idea-plugin>
