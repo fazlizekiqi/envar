@@ -5,14 +5,49 @@
     <!-- Public plugin name should be written in Title Case. -->
     <name>EnVar</name>
 
+
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="fazlizekiqi1@hotmail.com" url="https://github.com/fazlizekiqi">FazliZekiqi</vendor>
+
+
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager. -->
     <description><![CDATA[
-        A tool window to display project-specific environment variables.<br>
-        <em>Most HTML tags may be used</em>
-    ]]></description>
+    <h2>EnVar - Environment Variables Manager</h2>
+    <p>EnVar is an IntelliJ IDEA plugin that provides a dedicated tool window to display and manage
+    environment variables for the currently selected run configuration.</p>
+
+    <h3>Why Use This Plugin?</h3>
+    <p>Working with multiple run configurations can be overwhelming, especially when dealing with
+    different sets of environment variables. EnVar helps developers by offering a structured,
+    easy-to-access overview of environment variables, preventing confusion and misconfigurations.</p>
+
+    <h3>Features:</h3>
+    <ul>
+        <li>Displays environment variables for the active run configuration.</li>
+        <li>Automatically updates when switching configurations.</li>
+        <li>Allows direct editing of environment variables from within the tool window.</li>
+        <li>Minimal and user-friendly interface for quick access.</li>
+    </ul>
+
+    <h3>How to Use:</h3>
+    <ol>
+        <li>Install the plugin and restart IntelliJ IDEA.</li>
+        <li>Open the <b>Environment Variables</b> tool window from the side panel.</li>
+        <li>Select a run configuration to see its environment variables.</li>
+        <li>Edit values directly in the table to update them.</li>
+    </ol>
+
+    <h3>Preview:</h3>
+    <p>Here’s a screenshot of EnVar in action:</p>
+    <p><img src="https://github.com/fazlizekiqi/envar/blob/main/img.png" alt="Plugin Preview" width="600"/></p>
+
+    <h3>Compatibility:</h3>
+    <p>Compatible with IntelliJ IDEA 2020.3 and later.</p>
+
+    <h3>Open Source:</h3>
+    <p>Contributions are welcome! Check out the source code and contribute via GitHub.</p>
+]]></description>
 
     <!-- Product and plugin compatibility requirements. -->
     <depends>com.intellij.modules.platform</depends>

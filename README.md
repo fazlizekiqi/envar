@@ -45,6 +45,5 @@ This plugin addresses that problem by:
 If you'd like to contribute to this plugin, feel free to fork the repository and submit a pull request. We welcome contributions that improve functionality, fix bugs, or enhance the user interface.
 
 ## License
-This plugin is licensed under the MIT License.
 
 ---
