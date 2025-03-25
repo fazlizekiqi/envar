@@ -5,7 +5,7 @@ plugins {
 
 }
 
-group = "se.seb.docflow"
+group = "com.fazlizekiqi"
 version = "1.0-SNAPSHOT"
 
 repositories {

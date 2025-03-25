@@ -1,4 +1,4 @@
-package se.docflow.envar;
+package com.fazlizekiqi.envar;
 
 import com.intellij.openapi.actionSystem.DefaultActionGroup;
 import com.intellij.openapi.ui.SimpleToolWindowPanel;
@@ -9,7 +9,6 @@ import groovyjarjarantlr4.v4.runtime.misc.NotNull;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.util.logging.Logger;
 
 public class MyToolWindowFactory extends DefaultActionGroup implements ToolWindowFactory {
     @Override

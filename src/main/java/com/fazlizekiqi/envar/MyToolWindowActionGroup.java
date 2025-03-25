@@ -1,4 +1,4 @@
-package se.docflow.envar;
+package com.fazlizekiqi.envar;
 
 
 import com.intellij.openapi.actionSystem.AnAction;

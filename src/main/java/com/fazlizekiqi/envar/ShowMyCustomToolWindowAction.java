@@ -1,4 +1,4 @@
-package se.docflow.envar;
+package com.fazlizekiqi.envar;
 
 import com.intellij.execution.CommonProgramRunConfigurationParameters;
 import com.intellij.execution.RunManager;

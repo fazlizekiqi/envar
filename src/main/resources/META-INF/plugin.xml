@@ -1,6 +1,6 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>se.seb.docflow.enVar</id>
+    <id>com.fazlizekiqi.enVar</id>
 
     <!-- Public plugin name should be written in Title Case. -->
     <name>EnVar</name>
@@ -24,7 +24,7 @@
                 id="Environment Variables"
                 anchor="right"
                 icon="/icons/pluginIcon.svg"
-                factoryClass="se.docflow.envar.MyToolWindowFactory"
+                factoryClass="com.fazlizekiqi.envar.MyToolWindowFactory"
                 secondary="true">
         </toolWindow>
     </extensions>
@@ -32,11 +32,11 @@
     <!-- Actions and Action Groups -->
     <actions>
 
-        <group id="MyToolWindowGroup" class="se.docflow.envar.MyToolWindowActionGroup"
+        <group id="MyToolWindowGroup" class="com.fazlizekiqi.envar.MyToolWindowActionGroup"
                text="testing">
             <action
                     id="ShowMyCustomToolWindow"
-                    class="se.docflow.envar.ShowMyCustomToolWindowAction"
+                    class="com.fazlizekiqi.envar.ShowMyCustomToolWindowAction"
                     text="Show Environment Variables"
                     description="Show the project-specific environment variables in a tool window"
                     icon="/icons/pluginIcon.svg">
