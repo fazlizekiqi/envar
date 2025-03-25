@@ -47,3 +47,12 @@ If you'd like to contribute to this plugin, feel free to fork the repository and
 ## License
 
 ---
+## IntelliJ Plugin - EnVar
+
+EnVar helps manage multiple environment variables across different configurations inside IntelliJ IDEA.
+
+[![EnVar Plugin](img.png)](https://plugins.jetbrains.com/plugin/26912-envar)
+
+👉 **Download the plugin from JetBrains Marketplace**  
+[JetBrains Marketplace - EnVar](https://plugins.jetbrains.com/plugin/26912-envar)
+
