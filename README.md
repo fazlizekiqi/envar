@@ -17,12 +17,14 @@ This plugin addresses that problem by:
 - Providing a clear interface for managing environment variables.
 - Making it easy to view and edit variables associated with any selected run configuration.
 - Updating in real-time as you switch configurations, keeping everything in sync.
-
+- 
 ## Features
 - Displays environment variables for the selected run configuration.
 - Allows real-time updates of key-value pairs.
 - Supports viewing and editing of environment variables.
 - Simplified design for quick access and usability.
+- Adding new variables
+- Deleting variables
 
 ## Screenshots
 ![Plugin Preview](img.png)
