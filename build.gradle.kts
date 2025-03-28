@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.fazlizekiqi"
-version = "2.0"
+version = "2.1"
 
 repositories {
     gradlePluginPortal()
@@ -34,7 +34,8 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("232")
-        untilBuild.set("243.*")
+
+        untilBuild.set("251.*")
     }
 
     signPlugin {
