@@ -1,0 +1,26 @@
+
+name: Build and Publish Plugin
+on:
+  release:
+    types:
+      - published
+jobs:
+  gradle:
+    runs-on: ubuntu-latest
+    env:
+      publish-token: ${{ secrets.PUBLISH_TOKEN }}
+    steps:
+
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: 17
+        #checkout plugin-repository
+      - uses: actions/checkout@v2
+        with:
+          repository: https://github.com/fazlizekiqi/envar
+          ref: main
+      - name: build and publish plugin
+        run: |
+          ./gradlew buildPlugin
+          ./gradlew publishPlugin -PintellijPublishToken=${{ env.publish-token }}

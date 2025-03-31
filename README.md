@@ -30,6 +30,10 @@ This plugin addresses that problem by:
 ![Plugin Preview](img.png)
 
 ## Installation Instructions
+- Option 1:
+  👉 **Download the plugin from JetBrains Marketplace**  
+  [JetBrains Marketplace - EnVar](https://plugins.jetbrains.com/plugin/26912-envar)
+- Option 2 :
 1. **Download** the plugin package from the release section.
 2. **Open IntelliJ IDEA**, go to **File > Settings > Plugins**.
 3. Click on the **gear icon** in the top right and choose **Install Plugin from Disk**.
@@ -54,7 +58,4 @@ If you'd like to contribute to this plugin, feel free to fork the repository and
 EnVar helps manage multiple environment variables across different configurations inside IntelliJ IDEA.
 
 [![EnVar Plugin](img.png)](https://plugins.jetbrains.com/plugin/26912-envar)
-
-👉 **Download the plugin from JetBrains Marketplace**  
-[JetBrains Marketplace - EnVar](https://plugins.jetbrains.com/plugin/26912-envar)
 
