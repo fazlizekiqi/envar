@@ -20,6 +20,8 @@ jobs:
         with:
           repository: fazlizekiqi/envar
           ref: main
+      - name: Grant execute permission for gradlew
+        run: chmod +x ./gradle
       - name: build and publish plugin
         run: |
           ./gradlew buildPlugin
