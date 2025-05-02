@@ -18,7 +18,7 @@ jobs:
         #checkout plugin-repository
       - uses: actions/checkout@v2
         with:
-          repository: https://github.com/fazlizekiqi/envar
+          repository: fazlizekiqi/envar
           ref: main
       - name: build and publish plugin
         run: |
