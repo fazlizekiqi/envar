@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.fazlizekiqi"
-version = "2.1"
+version = "2.2"
 
 repositories {
     gradlePluginPortal()
@@ -45,6 +45,6 @@ tasks {
     }
 
     publishPlugin {
-        token.set(System.getenv("PUBLISH_TOKEN"))
+        token.set("perm-ZmF6bGl6ZWtpcWk=.OTItMTI0OTY=.xgSTrjCG1mUszeF54lpuvDLk6FzGcy")
     }
 }
