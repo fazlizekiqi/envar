@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.fazlizekiqi"
-version = "2.3"
+version = "2.4"
 
 repositories {
     gradlePluginPortal()
