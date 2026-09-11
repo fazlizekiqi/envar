@@ -1,5 +1,6 @@
-
-
+Jetbrains marketplace: 
+[https://plugins.jetbrains.com/plugin/26912-envar/
+](https://plugins.jetbrains.com/plugin/26912-envar/)
 
 ---
 
